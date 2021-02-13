@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="408.0" prefWidth="364.0" xmlns="http://javafx.com/javafx/8.0.172-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="RMI.Controller">
+    <Button layoutX="62.0" layoutY="82.0" mnemonicParsing="false" onAction="#encryptInput" prefHeight="25.0"
+            prefWidth="237.0" text="Encrypt"/>
+    <TextField fx:id="userInput" layoutX="62.0" layoutY="42.0" prefHeight="25.0" prefWidth="237.0"/>
+    <TextArea fx:id="output" editable="false" layoutX="62.0" layoutY="138.0" prefHeight="232.0" prefWidth="237.0"/>
+    <padding>
+        <Insets bottom="50.0" left="50.0" right="50.0" top="50.0"/>
+    </padding>
+</Pane>
